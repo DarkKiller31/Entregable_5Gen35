@@ -1,0 +1,236 @@
+
+.detail {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8em;
+}
+.detail__content {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.34);
+}
+.detail__bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6em;
+  border-radius:  20px 20px 0 0;
+}
+.detail__img {
+  position: relative;
+  bottom: 3em;
+  height: 15em;
+}
+.detail__prop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+.detail__id {
+  border: 1px solid;
+  padding: 0.1em;
+  margin-bottom: 0.5em;
+  font-size: 1.8em;
+}
+.detail__lineName {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.detail__line {
+  margin:0px 20px;
+  width:30%;    
+  border-top:2px solid #9b98985b;
+  position: relative;
+  top:10px;
+  float:left;
+  }
+
+.detail__name {
+  text-transform: capitalize;
+  padding: 0 1.5em;
+  font-size: 2em;
+  font-weight: 700;
+}
+.detail__dimensions {
+  display: flex;
+  margin-top: 1em;
+  width: 100%;
+  justify-content: center;
+  gap: 1.5em;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list__label {
+  text-align: center;
+  font-size: 0.8em;
+}
+.list__value {
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.detail__tyAndAbi {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+.detail__title {
+  font-size: 1.6em;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.detail__types {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.detail__value {
+  border: 1px solid #7e7d7d81;
+  border-radius: 5px;
+  margin: 0.6em 1em;
+  padding: 0.3em 1em;
+  font-size: 1.3em;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.general {
+  border: none;
+  color: white;
+}
+/* Color Types  */
+.bgc-normal {
+  background-color: #5d2340;
+}
+.bgc-fighting {
+  background-color: #884433;
+}
+.bgc-flying {
+  background-color: #afb0b0;
+}
+.bgc-poison {
+  background-color: #7e09b4;
+}
+.bgc-ground {
+  background-color: #7d502b;
+}
+.bgc-rock {
+  background-color: #555757;
+}
+.bgc-bug {
+  background-color: #2ddd36;
+}
+.bgc-ghost {
+  background-color: #232966;
+}
+.bgc-steel {
+  background-color: #3d544a;
+}
+.bgc-fire {
+  background-color: #de4c0d;
+}
+.bgc-water {
+  background-color: #2937d5;
+}
+.bgc-grass {
+  background-color: #09b487;
+}
+.bgc-electric {
+  background-color: #e8e82a;
+}
+.bgc-psychic {
+  background-color: #e1263f;
+}
+.bgc-ice {
+  background-color: #5ed2ec;
+}
+.bgc-dragon {
+  background-color: #3f878f;
+}
+.bgc-dark {
+  background-color: #191919;
+}
+.bgc-fairy {
+  background-color: #921f58;
+}
+.stats {
+  padding: 2em 4em
+}
+.container__stats {
+  padding-top: 1em;
+}
+.stats__titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stats__title {
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.736);
+}
+.stats__line {
+  width: 80%;
+  border-color: #ebebeb;
+}
+.stats__img {
+  width: 4em;
+}
+.still__titles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  color: #545454;
+  
+}
+.stats__progress {
+  width: 100%;
+  height: 2em;
+  appearance: none;
+}
+::-webkit-progress-value {
+  background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+  border-radius: 4px;
+}
+::-webkit-progress-bar {
+  background-color: #F6F6F6;
+  border-radius: 4px;
+}
+.detail__movements{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 65%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.34);
+  padding: 2em 4em
+}
+.movements__titles{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  justify-content: center;
+}
+.detail__move {
+  padding: 0.4em 0.9em;
+  border-radius: 50px;
+  background-color: #E5E5E5;
+}

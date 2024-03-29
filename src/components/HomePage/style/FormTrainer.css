@@ -1,0 +1,34 @@
+.form {
+  margin-top: 1em;
+  margin-bottom: 7em;
+  background-color: rgb(224, 34, 34);
+  padding: 0.5em;
+  border-radius: 50px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.form__input {
+  height: 3em;
+  border: 0;
+  border-radius: 45px;
+  padding: 0.8em;
+  margin-right: 0.4em;
+  font-weight: 700;
+  font-size: 0.9em;
+
+}
+.form__btn {
+  height: 3em;
+  border: 0;
+  margin: 0 0.5em;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 0.9em;
+  color: white;
+  cursor: pointer;
+  border-radius: 45px;
+  &:hover {
+    transform: scale(1.3);
+    color: black;
+  }
+}

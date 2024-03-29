@@ -1,0 +1,16 @@
+.type__select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 7em;
+  background-color: rgb(224, 34, 34);
+  padding: 0.5em;
+  padding-right: 1em;
+  border-radius: 50px;
+  border: 2px solid black;
+  cursor: pointer;
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+}
