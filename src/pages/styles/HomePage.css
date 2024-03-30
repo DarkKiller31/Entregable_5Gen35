@@ -81,6 +81,7 @@
   background-color:#858585;
   border: 7px solid black;
   border-radius: 50%;
+  transition: transform 200ms ease;
   &:hover {
     transform: scale(1.2);
   }

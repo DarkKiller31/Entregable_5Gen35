@@ -46,6 +46,7 @@
   background-color:#858585;
   border: 6px solid black;
   border-radius: 50%;
+  transition: transform 150ms ease;
   &:hover {
     transform: scale(1.2);
   }
