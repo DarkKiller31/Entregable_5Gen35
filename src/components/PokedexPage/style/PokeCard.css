@@ -4,6 +4,12 @@
   border: 0.5em solid #ccc;
   border-radius: 1em;
   margin: 1em;
+  cursor: pointer;
+  transition: transform 150ms ease;
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 0.5em 0.2em #bebebea4;
+  }
 }
 .card__header {
   background-color: blueviolet;
