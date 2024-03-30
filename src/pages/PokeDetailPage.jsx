@@ -16,8 +16,6 @@ const PokeDetailPage = () => {
   }, [name])
 
 
-console.log(pokemon)
-
   return (
     <main>
       <HeaderPokedex />
