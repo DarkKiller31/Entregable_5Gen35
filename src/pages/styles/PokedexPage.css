@@ -2,6 +2,7 @@
   text-align: justify;
   padding-top: 1em;
   padding-left: 1em;
+  padding-right: 1em;
   font-size: 1.5em;
   font-weight: 700;
 }
@@ -10,20 +11,16 @@
 }
 .pokedex__container {
   display: flex;
+  flex-wrap: wrap;
   gap: 1em;
   width: 100%;
+  padding: 1em 2em;
+
 }
 .pokedex__form {
-  margin-left: 2em;
-  max-width: 40vw;
-}
-.pokedex__form {
+  height: 3em;
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 1em;
-  margin-top: 1em;
-  margin-bottom: 7em;
   background-color: rgb(224, 34, 34);
   padding: 0.5em;
   padding-right: 1em;
